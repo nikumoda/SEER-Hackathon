@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SEER Data Hackathon • Oct 11–12, 2025</title>
+  <meta name="description" content="Two-day, team-based research sprint using SEER cancer registry data. Build analysis, draft abstracts, and present findings.">
+  <meta property="og:title" content="SEER Data Hackathon • Oct 11–12, 2025" />
+  <meta property="og:description" content="Two-day, team-based research sprint using SEER data. Join coders, clinicians, and MPH/biostats students." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0ea5e9">
+
+  <!-- Tailwind (CDN) for a no-build static page) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    /* Fallback font stack for a clean look */
+    :root { --brand: #0ea5e9; }
+    html { scroll-behavior: smooth; }
+    .chip { @apply inline-flex items-center rounded-full border px-3 py-1 text-sm; }
+    .card { @apply rounded-2xl shadow-lg border bg-white; }
+    .btn { @apply inline-flex items-center justify-center rounded-xl px-4 py-2 font-semibold border transition; }
+    .btn-primary { @apply bg-sky-600 text-white border-sky-700 hover:bg-sky-700; }
+    .btn-ghost { @apply border-sky-200 text-sky-700 hover:bg-sky-50; }
+    .tag { @apply inline-flex items-center gap-2 rounded-full bg-sky-50 text-sky-700 border border-sky-200 px-3 py-1 text-sm; }
+    /* Simple backdrop */
+    .radial { background: radial-gradient(80% 60% at 50% -10%, #bae6fd 0%, transparent 60%), radial-gradient(60% 50% at 120% 10%, #e0f2fe 0%, transparent 60%); }
+  </style>
+</head>
+<body class="text-slate-800 bg-slate-50">
+  <!-- Header / Hero -->
+  <header class="radial">
+    <div class="mx-auto max-w-6xl px-4 py-14">
+      <div class="grid gap-8 md:grid-cols-2 items-center">
+        <div>
+          <span class="tag">In-person • Murphy Hall</span>
+          <h1 class="mt-4 text-4xl md:text-5xl font-extrabold leading-tight">
+            SEER Data Hackathon
+          </h1>
+          <p class="mt-3 text-xl text-slate-700">October 11–12, 2025 • Team-based sprint using the SEER cancer registry to generate publishable insights.</p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a class="btn btn-primary" href="#register">Register</a>
+            <a class="btn btn-ghost" href="#schedule">View Schedule</a>
+            <a class="btn btn-ghost" href="flyer.pdf" target="_blank" rel="noopener">Download PDF Flyer</a>
+          </div>
+          <div class="mt-6 flex flex-wrap gap-2 text-sm">
+            <span class="chip border-sky-200 text-sky-800">Teams of 3–5</span>
+            <span class="chip border-rose-200 text-rose-800">Clinicians + Coders + MPH</span>
+            <span class="chip border-emerald-200 text-emerald-800">Abstract-focused</span>
+          </div>
+        </div>
+        <div class="card p-6">
+          <h2 class="text-lg font-semibold">What you’ll do</h2>
+          <ul class="mt-3 space-y-2 list-disc list-inside text-slate-700">
+            <li>Explore SEER variables and data dictionaries</li>
+            <li>Run descriptive stats and survival/incidence analyses</li>
+            <li>Draft an abstract (ASCO, AACR, etc.) with figures/tables</li>
+            <li>Present findings and plan next steps with mentors</li>
+          </ul>
+          <div class="mt-4 text-sm text-slate-500">No prior SEER experience required; bring a laptop.</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Key Info -->
+  <section id="details" class="py-12">
+    <div class="mx-auto max-w-6xl px-4 grid gap-6 md:grid-cols-3">
+      <div class="card p-6">
+        <h3 class="font-semibold text-slate-900">Who should attend</h3>
+        <p class="mt-2 text-slate-700">Undergrads, grad students, medical students, coders, clinical advisors, and MPH/biostats students interested in oncology and data science.</p>
+      </div>
+      <div class="card p-6">
+        <h3 class="font-semibold text-slate-900">Team roles</h3>
+        <p class="mt-2 text-slate-700">Aim for a mix of skillsets. Use <span class="font-medium">🔵 blue</span> tags for coders and <span class="font-medium">🔴 red</span> for clinical/MPH backgrounds at check-in.</p>
+      </div>
+      <div class="card p-6">
+        <h3 class="font-semibold text-slate-900">What to bring</h3>
+        <ul class="mt-2 space-y-1 list-disc list-inside text-slate-700">
+          <li>Laptop + charger</li>
+          <li>GitHub account (optional but helpful)</li>
+          <li>Ideas for cancer types or disparities to explore</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Schedule -->
+  <section id="schedule" class="py-12 bg-white">
+    <div class="mx-auto max-w-6xl px-4">
+      <h2 class="text-2xl font-bold">Schedule</h2>
+
+      <div class="mt-6 grid gap-6 md:grid-cols-2">
+        <div class="card p-6">
+          <h3 class="text-lg font-semibold">Day 1 • Exploration & Analysis (Sat, Oct 11)</h3>
+          <details class="mt-3 group open:shadow-inner">
+            <summary class="cursor-pointer font-medium">9:00 – 10:00 • Kickoff & Team Formation</summary>
+            <ul class="mt-2 text-slate-700 list-disc list-inside">
+              <li>Overview of goals & SEER dataset; create accounts</li>
+              <li>Form teams by cancer type / method / interest</li>
+            </ul>
+          </details>
+          <details class="mt-2">
+            <summary class="cursor-pointer font-medium">10:00 – 11:30 • SEER Deep Dive (Nikhil)</summary>
+            <p class="mt-2 text-slate-700">Variables, coding, limitations; run basic descriptive stats to validate scope.</p>
+          </details>
+          <details class="mt-2">
+            <summary class="cursor-pointer font-medium">12:30 – 1:30 • Check-ins & Mentorship</summary>
+            <p class="mt-2 text-slate-700">Share questions; get resource pointers; identify potential faculty sponsors.</p>
+          </details>
+          <details class="mt-2">
+            <summary class="cursor-pointer font-medium">1:30 – 4:30 • EDA & Data Cleaning</summary>
+            <p class="mt-2 text-slate-700">Exploratory analysis, figure planning, and dataset QC.</p>
+          </details>
+          <details class="mt-2">
+            <summary class="cursor-pointer font-medium">4:30 – 5:00 • Wrap-Up</summary>
+            <p class="mt-2 text-slate-700">Share progress and set Day 2 targets.</p>
+          </details>
+        </div>
+
+        <div class="card p-6">
+          <h3 class="text-lg font-semibold">Day 2 • Analysis & Abstracts (Sun, Oct 12)</h3>
+          <details class="mt-3">
+            <summary class="cursor-pointer font-medium">9:00 – 11:00 • Statistical Analysis & Viz</summary>
+            <p class="mt-2 text-slate-700">Survival, incidence, disparities; create tables/figures.</p>
+          </details>
+          <details class="mt-2">
+            <summary class="cursor-pointer font-medium">11:00 – 12:00 • Abstract Workshop (Sarah)</summary>
+            <p class="mt-2 text-slate-700">Background, methods, results, conclusion; formatting tips.</p>
+          </details>
+          <details class="mt-2">
+            <summary class="cursor-pointer font-medium">1:00 – 3:30 • Drafting & Refinement</summary>
+            <p class="mt-2 text-slate-700">Mentor-guided writing with figures/table integration.</p>
+          </details>
+          <details class="mt-2">
+            <summary class="cursor-pointer font-medium">3:30 – 4:00 • Presentations</summary>
+            <p class="mt-2 text-slate-700">3–4 min abstract overview + 1–2 min Q&A per team.</p>
+          </details>
+          <details class="mt-2">
+            <summary class="cursor-pointer font-medium">4:00 – 4:30 • Awards & Next Steps</summary>
+            <p class="mt-2 text-slate-700">Recognitions, submission pathways, and mentorship connections.</p>
+          </details>
+        </div>
+      </div>
+
+      <div class="mt-8 card p-6">
+        <h4 class="font-semibold">Suggested Time Commitments</h4>
+        <ul class="mt-2 grid gap-2 md:grid-cols-2 text-slate-700">
+          <li><span class="font-medium">Medical students:</span> Sat 9–11:30 • Sun 11–4:30</li>
+          <li><span class="font-medium">Coders:</span> Sat 9–5:30 • Sun 9–4:30</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Register / Contact -->
+  <section id="register" class="py-12">
+    <div class="mx-auto max-w-3xl px-4">
+      <div class="card p-6 text-center">
+        <h2 class="text-2xl font-bold">Ready to join?</h2>
+        <p class="mt-2 text-slate-700">Reserve your spot and tell us your background so we can help balance teams.</p>
+        <div class="mt-4 flex flex-wrap gap-3 justify-center">
+          <a class="btn btn-primary" href="https://forms.gle/your-form" target="_blank" rel="noopener">Register via Google Form</a>
+          <a class="btn btn-ghost" href="mailto:organizers@example.edu">Email the organizers</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-12 bg-white">
+    <div class="mx-auto max-w-5xl px-4">
+      <h2 class="text-2xl font-bold">FAQ</h2>
+      <div class="mt-6 grid gap-6 md:grid-cols-2">
+        <div class="card p-6">
+          <h3 class="font-semibold">Do I need prior SEER experience?</h3>
+          <p class="mt-2 text-slate-700">No. We’ll cover the basics, and mentors will help you find a feasible question quickly.</p>
+        </div>
+        <div class="card p-6">
+          <h3 class="font-semibold">Will there be mentorship?</h3>
+          <p class="mt-2 text-slate-700">Yes—check-ins both days, plus help identifying potential faculty sponsors post-event.</p>
+        </div>
+        <div class="card p-6">
+          <h3 class="font-semibold">Can I bring my own dataset?</h3>
+          <p class="mt-2 text-slate-700">This event focuses on SEER for consistency and shared tooling. Side comparisons are fine if time allows.</p>
+        </div>
+        <div class="card p-6">
+          <h3 class="font-semibold">Is food provided?</h3>
+          <p class="mt-2 text-slate-700">Include your plan here (e.g., "Lunch both days").</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-12">
+    <div class="mx-auto max-w-6xl px-4 flex flex-col md:flex-row items-center justify-between gap-4">
+      <p class="text-slate-600">© 2025 SEER Data Hackathon</p>
+      <nav class="flex gap-4 text-slate-600">
+        <a href="#details" class="hover:text-slate-900">Details</a>
+        <a href="#schedule" class="hover:text-slate-900">Schedule</a>
+        <a href="flyer.pdf" class="hover:text-slate-900" target="_blank" rel="noopener">PDF Flyer</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

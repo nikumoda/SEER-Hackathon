@@ -1,5 +1,5 @@
 title: SEER Data Hackathon
 description: Two-day sprint to explore SEER data, collaborate across disciplines, and draft abstracts.
+remote_theme: mmistakes/minimal-mistakes
 plugins:
-  - jekyll-remote-theme
-remote_theme: pages-themes/minimal-mistakes@v4.0.0
+  - jekyll-include-cache

@@ -9,7 +9,7 @@ permalink: /
 <h1 style="margin-top:.25rem;">SEER Data Hackathon</h1>
 
 <p style="max-width:60ch;color:#475569;">
-A friendly, fast-paced weekend where students from various fields can work together on SEER cancer registry questions. All data is public and open-access, so no IRB approval is required to get started! Bring a laptop and your curiosity, no background in data science is required. We'll help you connect with a team, find a research question, explore the datam and shape findings into a short abstract you can keep building on.
+A friendly, fast-paced weekend where students from various fields can work together on SEER cancer registry questions. All data is public and open-access, so no IRB approval is required to get started! Bring a laptop and your curiosity, no background in data science is required. We'll help you connect with a team, find a research question, explore the data and shape findings into a short abstract you can keep building on.
 </p>
 
 <p style="display:flex;gap:.75rem;flex-wrap:wrap;margin:1rem 0;">
@@ -32,9 +32,9 @@ A friendly, fast-paced weekend where students from various fields can work toget
 
 ## Who should attend
 
--Undergrads, grad students, medical students, and MPH/biostats students—plus anyone who enjoys data, health, or both.  
--We aim for **mixed teams** including both **coding** and **clinical** perspectives.
--If you have a team in mind already, all the better!
+- Undergrads, grad students, medical students, and MPH/biostats students—plus anyone who enjoys data, health, or both.  
+- We aim for **mixed teams** including both **coding** and **clinical** perspectives.
+- If you have a team in mind already, all the better!
 
 ---
 

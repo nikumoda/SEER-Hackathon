@@ -20,7 +20,7 @@ A friendly, fast-paced weekend where students from various fields can work toget
 
 ---
 
-## What you’ll do
+## What You’ll Do
 
 - Get oriented to the SEER dataset and what kinds of questions it’s good at answering.  
 - Form a small team with a mix of skills and interests.  
@@ -30,7 +30,7 @@ A friendly, fast-paced weekend where students from various fields can work toget
 
 ---
 
-## Who should attend
+## Who Should Attend
 
 - Undergrads, grad students, medical students, and MPH/biostats students—plus anyone who enjoys data, health, or both.  
 - We aim for **mixed teams** including both **coding** and **clinical** perspectives.
@@ -58,7 +58,7 @@ A friendly, fast-paced weekend where students from various fields can work toget
 
 ---
 
-## Time commitments
+## Time Commitments
 
 - **Medical Students:** Sat 9:00–11:30 • Sun 11:00–4:30  
 - **Coders:** Sat 9:00–5: • Sun 9:00–4:30
